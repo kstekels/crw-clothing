@@ -4,7 +4,7 @@ import {
   selectCategoriesIsLoading,
   selectCategoriesMap,
 } from '../../store/categories/category.selector';
-import { CategoryContainer, CategoryTitle } from './category.styles.jsx';
+import { CategoryContainer, CategoryTitle } from './category.styles';
 import { useParams } from 'react-router-dom';
 
 import ProductCard from '../../components/product-card/product-card.component';

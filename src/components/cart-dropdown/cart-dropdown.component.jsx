@@ -2,9 +2,9 @@ import {
   CartDropdownContainer,
   EmptyMessage,
   CartItems,
-} from './cart-dropdown.styles.jsx';
+} from './cart-dropdown.styles';
 import { useSelector } from 'react-redux';
-import { selectCartItems } from '../../store/cart/cart.selector.js';
+import { selectCartItems } from '../../store/cart/cart.selector.ts';
 import { useNavigate } from 'react-router-dom';
 
 import Button from '../button/button.component';
